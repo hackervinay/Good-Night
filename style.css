@@ -1,0 +1,48 @@
+html,body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+   position: relative;
+    top: 1000px;
+    left: 600px;
+    border-radius: 50%;
+    box-shadow:1px 1px 20px #fff,
+               1px 1px 40px #fff,
+               1px 1px 80px #fff,
+               1px 1px 160px #fff;
+    animation: mymove 10s;
+}
+@keyframes mymove {
+0% {
+    position: relative;
+    top: 1400px;
+    opacity: 0;
+    box-shadow:1px 1px 20px #fff;
+}
+
+100% {
+    position: relative;
+    top: 1000px;
+    box-shadow:1px 1px 20px #fff,
+               1px 1px 40px #fff,
+               1px 1px 80px #fff,
+               1px 1px 120px #fff;
+}
+}
+p{
+    color:whitesmoke;
+    font-size: 120px;
+    position: relative;
+    top: 1100px;
+    left: 500px;
+    font-family: Brush Script MT;
+    letter-spacing: 5px;
+}
